@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "application.HomeController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Space-Free-PNG-Image.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="welcome_label" layoutX="126.0" layoutY="25.0" prefHeight="66.0" prefWidth="412.0" text="Welcome To Simple Ping Pong" textFill="#f2f0f0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="play_button" layoutX="248.0" layoutY="117.0" mnemonicParsing="false" onAction="#Play" prefHeight="43.0" prefWidth="96.0" text="Play" />
+      <Button fx:id="history_button" layoutX="248.0" layoutY="187.0" mnemonicParsing="false" onAction="#history" prefHeight="43.0" prefWidth="96.0" text="History" />
+      <Button fx:id="exit_button" layoutX="248.0" layoutY="258.0" mnemonicParsing="false" onAction="#exit" prefHeight="43.0" prefWidth="96.0" text="Exit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: Darkblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController">
+   <children>
+      <Circle fx:id="circle" fill="#f5f9fc" layoutX="400.0" layoutY="200.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="plat_p1" arcHeight="5.0" arcWidth="5.0" fill="#f0f2f4" height="80.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+      <Rectangle fx:id="plat_p2" arcHeight="5.0" arcWidth="5.0" fill="#f8fcff" height="80.0" layoutX="786.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+      <Text fx:id="txt2" fill="#ece9e9" layoutX="574.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt1" fill="#fcfafa" layoutX="232.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
